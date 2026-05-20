@@ -1,0 +1,56 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#e6f2ff"/>
+  
+  <!-- Unit Body - Standard Box -->
+  <rect x="70" y="40" width="260" height="230" fill="#999999" rx="6"/>
+  
+  <!-- Header with Blue Accent -->
+  <rect x="75" y="45" width="250" height="40" fill="#0099CC" rx="4"/>
+  <text x="200" y="72" font-size="14" font-weight="bold" fill="white" text-anchor="middle" font-family="Arial">Multi-Position Air Handler</text>
+  
+  <!-- Main Filter Section -->
+  <rect x="80" y="90" width="240" height="50" fill="#cccccc" stroke="#888888" stroke-width="2"/>
+  <text x="200" y="120" font-size="12" fill="#666666" text-anchor="middle" font-family="Arial">Advanced Filter System</text>
+  
+  <!-- Coil Section -->
+  <g id="coils">
+    <!-- Evaporator Coil -->
+    <rect x="85" y="150" width="110" height="70" fill="#c0c0c0" stroke="#888888" stroke-width="1" rx="2"/>
+    <!-- Coil Fins Pattern -->
+    <line x1="90" y1="160" x2="190" y2="160" stroke="#888888" stroke-width="1"/>
+    <line x1="90" y1="170" x2="190" y2="170" stroke="#888888" stroke-width="1"/>
+    <line x1="90" y1="180" x2="190" y2="180" stroke="#888888" stroke-width="1"/>
+    <line x1="90" y1="190" x2="190" y2="190" stroke="#888888" stroke-width="1"/>
+    <line x1="90" y1="200" x2="190" y2="200" stroke="#888888" stroke-width="1"/>
+    <line x1="90" y1="210" x2="190" y2="210" stroke="#888888" stroke-width="1"/>
+    
+    <!-- Air Flow Arrows (Left to Right) -->
+    <circle cx="140" cy="115" r="3" fill="#0099CC"/>
+    <line x1="145" y1="115" x2="165" y2="115" stroke="#0099CC" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Blower Motor Section -->
+  <g id="blower">
+    <rect x="205" y="150" width="110" height="70" fill="#888888" stroke="#666666" stroke-width="1" rx="2"/>
+    <!-- Motor Indicators -->
+    <circle cx="260" cy="175" r="15" fill="#444444"/>
+    <circle cx="260" cy="175" r="10" fill="#0099CC"/>
+    <!-- Speed Controls -->
+    <circle cx="240" cy="205" r="4" fill="#cccccc" stroke="#666666" stroke-width="1"/>
+    <circle cx="255" cy="205" r="4" fill="#cccccc" stroke="#666666" stroke-width="1"/>
+    <circle cx="270" cy="205" r="4" fill="#cccccc" stroke="#666666" stroke-width="1"/>
+    <circle cx="285" cy="205" r="4" fill="#cccccc" stroke="#666666" stroke-width="1"/>
+  </g>
+  
+  <!-- Drain Pan at Bottom -->
+  <rect x="75" y="230" width="250" height="25" fill="#b0b0b0" stroke="#888888" stroke-width="1" rx="2"/>
+  <text x="200" y="248" font-size="10" fill="#666666" text-anchor="middle" font-family="Arial">Dual Drain System</text>
+  
+  <!-- Arrow Marker Definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#0099CC"/>
+    </marker>
+  </defs>
+</svg>

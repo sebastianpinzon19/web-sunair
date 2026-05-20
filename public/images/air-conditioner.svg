@@ -1,0 +1,56 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#e6f2ff"/>
+  
+  <!-- Unit Body -->
+  <rect x="80" y="60" width="240" height="200" fill="#b8b8b8" rx="8"/>
+  
+  <!-- Top Panel -->
+  <rect x="85" y="65" width="230" height="30" fill="#888888" rx="4"/>
+  
+  <!-- Grille Lines (Horizontal) -->
+  <line x1="90" y1="80" x2="310" y2="80" stroke="#999999" stroke-width="2"/>
+  <line x1="90" y1="90" x2="310" y2="90" stroke="#999999" stroke-width="2"/>
+  <line x1="90" y1="100" x2="310" y2="100" stroke="#999999" stroke-width="2"/>
+  
+  <!-- Main Fan Area -->
+  <circle cx="200" cy="150" r="60" fill="#444444"/>
+  
+  <!-- Fan Blades -->
+  <ellipse cx="200" cy="120" rx="50" ry="15" fill="#666666"/>
+  <ellipse cx="200" cy="180" rx="50" ry="15" fill="#666666"/>
+  <ellipse cx="170" cy="150" rx="15" ry="50" fill="#666666"/>
+  <ellipse cx="230" cy="150" rx="15" ry="50" fill="#666666"/>
+  
+  <!-- Center Cap -->
+  <circle cx="200" cy="150" r="12" fill="#0099CC"/>
+  
+  <!-- Bottom Grille Lines (Vertical) -->
+  <line x1="100" y1="190" x2="100" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="115" y1="190" x2="115" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="130" y1="190" x2="130" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="145" y1="190" x2="145" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="160" y1="190" x2="160" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="175" y1="190" x2="175" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="190" y1="190" x2="190" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="205" y1="190" x2="205" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="220" y1="190" x2="220" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="235" y1="190" x2="235" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="250" y1="190" x2="250" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="265" y1="190" x2="265" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="280" y1="190" x2="280" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="295" y1="190" x2="295" y2="250" stroke="#999999" stroke-width="2"/>
+  <line x1="310" y1="190" x2="310" y2="250" stroke="#999999" stroke-width="2"/>
+  
+  <!-- Control Panel -->
+  <g id="controls">
+    <!-- Power Button -->
+    <circle cx="130" cy="270" r="8" fill="#0099CC" stroke="#0077AA" stroke-width="2"/>
+    <!-- Status LED -->
+    <circle cx="160" cy="270" r="6" fill="#22CC22"/>
+    <!-- Temp Dial -->
+    <circle cx="200" cy="270" r="8" fill="#cccccc" stroke="#999999" stroke-width="2"/>
+    <!-- Mode Button -->
+    <rect x="230" y="262" width="16" height="16" fill="#999999" stroke="#666666" stroke-width="1" rx="2"/>
+  </g>
+</svg>

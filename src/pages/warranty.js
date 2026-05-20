@@ -1,0 +1,71 @@
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+
+export default function Warranty() {
+  return (
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-white to-blue-50">
+      <Header />
+
+      <main className="flex-grow">
+        <section className="py-20 md:py-28">
+          <div className="container-custom">
+            <div className="max-w-4xl mx-auto space-y-20">
+              {/* Download Warranty */}
+              <div className="text-center fade-in-up">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-sun-blue mb-10 leading-tight">
+                  Download Warranty <br className="hidden md:block" />Information
+                </h1>
+                <div className="flex justify-center">
+                  <a 
+                    href="https://cdn.prod.website-files.com/69a1b89dc4975ea642915275/69a8a432d01e1842b646c289_Warranty.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-5 px-16 rounded-xl transition-all duration-300 shadow-xl hover:shadow-2xl text-xl min-w-[250px]"
+                  >
+                    Download Here
+                  </a>
+                </div>
+              </div>
+
+              {/* Register Equipment */}
+              <div className="text-center fade-in-up">
+                <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-sun-blue mb-10 leading-tight">
+                  Register Equipment
+                </h2>
+                <div className="flex justify-center">
+                  <a 
+                    href="https://sun-air-warranty.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-5 px-16 rounded-xl transition-all duration-300 shadow-xl hover:shadow-2xl text-xl min-w-[250px]"
+                  >
+                    Click Here
+                  </a>
+                </div>
+              </div>
+
+              {/* File a Warranty Claim */}
+              <div className="text-center fade-in-up">
+                <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-sun-blue mb-10 leading-tight">
+                  File a Warranty Claim
+                </h2>
+                <div className="flex justify-center">
+                  <a 
+                    href="https://finalitygarantia-nu.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-5 px-16 rounded-xl transition-all duration-300 shadow-xl hover:shadow-2xl text-xl min-w-[250px]"
+                  >
+                    Click Here
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  );
+}
