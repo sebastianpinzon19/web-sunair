@@ -6,7 +6,7 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState('heat-pumps');
 
   const productTabs = [
-    { id: 'heat-pumps', label: 'HEAT PUMPS', image: '/images/iair/heat-pump-new.png', description: 'Heat pumps have earned a reputation as the system of choice for mild climates. During warm weather, a heat pump operates as an air conditioner to keep you cool and comfortable. When the temperatures start to drop, your heat pump will keep your living space nice and toasty.' },
+    { id: 'heat-pumps', label: 'HEAT PUMPS', image: '/images/sunair-logo.png', description: 'Heat pumps have earned a reputation as the system of choice for mild climates. During warm weather, a heat pump operates as an air conditioner to keep you cool and comfortable. When the temperatures start to drop, your heat pump will keep your living space nice and toasty.' },
     { id: 'air-conditioners', label: 'AIR CONDITIONERS', image: '/images/iair/ac-new.png', description: "SUN AIR air conditioners have been tested to perform even in the hottest climates, with equipment that's quiet, dependable, and affordable." },
     { id: 'air-handlers', label: 'AIR HANDLERS', image: '/images/iair/ah-new.png', description: "Your air handler's job is to circulate warm or cool air through your home year-round—and that's a task SUN AIR accomplishes with ease. Our air handlers are designed with multiple installation configurations, giving you a variety of options to fit any existing space." },
     { id: 'furnaces', label: 'FURNACES', image: '/images/iair/furnace-new.png', description: "When the weather gets chilly, you'll get comfortable, consistent heating—and you can also be confident these furnaces are built for durable performance over the long haul." },
