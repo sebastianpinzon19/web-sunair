@@ -7,7 +7,7 @@ export default function Catalog() {
     {
       title: '14.3 SEER 2 Fixed Speed l Air Conditioner',
       capacity: 'Cooling Capacity: 18-60kBTU/h',
-      image: '/images/iair/ac-unit.png',
+      image: '/images/sunair-logo.png',
       features: [
         'Eco-friendly R-32 refrigerant with low GPW value.',
         'Energy-efficient scroll compressor.',
@@ -22,7 +22,7 @@ export default function Catalog() {
     {
       title: '14.3 SEER 2 Fixed Speed l Heat Pump',
       capacity: 'Cooling Capacity: 18-60kBTU/h',
-      image: '/images/iair/ac-unit.png',
+      image: '/images/sunair-logo.png',
       features: [
         'Eco-friendly R-32 refrigerant with low GPW value.',
         'Energy-efficient scroll compressor.',
@@ -36,7 +36,7 @@ export default function Catalog() {
     {
       title: 'Multi-Position Standard Air Handler Unit',
       capacity: 'Cooling Capacity: 18-60kBTU/h',
-      image: '/images/iair/air-handler-standard.png',
+      image: '/images/sunair-logo.png',
       features: [
         'Multi-stage blower speed control to align with varying capacity demands.',
         'Multi-position installation: Upflow, Horizontal Right, Downflow, Horizontal Left.',
@@ -52,7 +52,7 @@ export default function Catalog() {
     {
       title: 'Wall-Mounted Air Handler Unit',
       capacity: 'Cooling Capacity: 18-36kBTU/h',
-      image: '/images/iair/air-handler-wall.png',
+      image: '/images/sunair-logo.png',
       features: [
         'Multi-speed PSC motor design.',
         'Built-in wall-hanging bracket.',
