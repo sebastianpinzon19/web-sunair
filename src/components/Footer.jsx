@@ -9,11 +9,11 @@ export default function Footer() {
           <div>
             <img 
               src="/images/sunair-logo.png" 
-              alt="SUN AIR Heating & A/C Supply"
+              alt="SunAir supply INC Heating & A/C Supply"
               className="h-20 w-auto mb-4"
             />
             <p className="text-gray-300 leading-relaxed text-sm">
-              Heating & A/C Supply - Quality, affordable solutions for all your climate control needs.
+              SunAir supply INC - Quality, affordable solutions for all your climate control needs.
             </p>
           </div>
 
@@ -23,14 +23,17 @@ export default function Footer() {
             <div className="space-y-3">
               <p className="text-gray-300 text-sm">Hours: Mon-Fri 8am-5pm EST</p>
               <a
-                href="mailto:info@sunair-usa.com"
+                href="mailto:info@sunairsupply.com"
                 className="text-white hover:text-sun-yellow transition block font-semibold text-sm"
               >
-                Email: info@sunair-usa.com
+                Email: info@sunairsupply.com
               </a>
-              <a href="tel:+18134430757" className="text-white hover:text-sun-yellow transition block font-semibold text-sm">
-                Phone: +1 (813) 443-0757
+              <a href="tel:+14043631020" className="text-white hover:text-sun-yellow transition block font-semibold text-sm">
+                Phone: (404) 363-1020
               </a>
+              <p className="text-gray-300 text-sm">
+                Address: 4244 Old Dixie Rd<br />Atlanta, GA 30354
+              </p>
             </div>
           </div>
 
@@ -70,7 +73,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {currentYear} Sun Air. All rights reserved.
+            &copy; {currentYear} SunAir supply INC. All rights reserved.
           </p>
           <div className="flex gap-6 mt-6 md:mt-0">
             <a

@@ -12,7 +12,7 @@ export default function Contact() {
           <div className="container-custom">
             <div className="max-w-3xl mx-auto">
               <h1 className="text-5xl md:text-6xl font-bold text-sun-blue mb-16 text-center fade-in-up">
-                Contact SUN AIR
+                Contact SunAir supply INC
               </h1>
               
               {/* Contact Form */}

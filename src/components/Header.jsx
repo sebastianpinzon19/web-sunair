@@ -13,7 +13,7 @@ export default function Header() {
           <Link href="/" className="flex items-center group">
             <img 
               src="/images/sunair-logo.png" 
-              alt="SUN AIR Heating & A/C Supply"
+              alt="SunAir supply INC Heating & A/C Supply"
               className="h-16 md:h-20 w-auto group-hover:scale-105 transition-transform duration-300"
             />
           </Link>

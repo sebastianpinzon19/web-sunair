@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Sun Air | Premium Heating & Cooling Solutions</title>
+        <title>SunAir supply INC | Premium Heating & Cooling Solutions</title>
       </Head>
       <Component {...pageProps} />
     </>

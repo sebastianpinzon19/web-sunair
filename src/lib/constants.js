@@ -1,11 +1,13 @@
 // Constantes del sitio
-export const SITE_NAME = 'Sun Air';
+export const SITE_NAME = 'SunAir supply INC';
 export const SITE_DESCRIPTION = 'Heating & A/C Supply Solutions';
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
 
 export const CONTACT_INFO = {
-  email: 'info@sunair-usa.com',
-  phone: '+1 (813) 443-0757',
+  addressLine1: '4244 Old Dixie Rd',
+  addressLine2: 'Atlanta, GA 30354',
+  email: 'info@sunairsupply.com',
+  phone: '(404) 363-1020',
   hours: 'Mon-Fri 8am-5pm EST',
   linkedin: 'https://linkedin.com/company/sunair',
 };

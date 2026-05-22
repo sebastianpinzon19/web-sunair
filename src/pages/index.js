@@ -7,10 +7,10 @@ export default function Home() {
 
   const productTabs = [
     { id: 'heat-pumps', label: 'HEAT PUMPS', image: '/images/sunair-logo.png', description: 'Heat pumps have earned a reputation as the system of choice for mild climates. During warm weather, a heat pump operates as an air conditioner to keep you cool and comfortable. When the temperatures start to drop, your heat pump will keep your living space nice and toasty.' },
-    { id: 'air-conditioners', label: 'AIR CONDITIONERS', image: '/images/iair/ac-new.png', description: "SUN AIR air conditioners have been tested to perform even in the hottest climates, with equipment that's quiet, dependable, and affordable." },
-    { id: 'air-handlers', label: 'AIR HANDLERS', image: '/images/iair/ah-new.png', description: "Your air handler's job is to circulate warm or cool air through your home year-round—and that's a task SUN AIR accomplishes with ease. Our air handlers are designed with multiple installation configurations, giving you a variety of options to fit any existing space." },
+    { id: 'air-conditioners', label: 'AIR CONDITIONERS', image: '/images/iair/ac-new.png', description: "SunAir supply INC air conditioners have been tested to perform even in the hottest climates, with equipment that's quiet, dependable, and affordable." },
+    { id: 'air-handlers', label: 'AIR HANDLERS', image: '/images/iair/ah-new.png', description: "Your air handler's job is to circulate warm or cool air through your home year-round—and that's a task SunAir supply INC accomplishes with ease. Our air handlers are designed with multiple installation configurations, giving you a variety of options to fit any existing space." },
     { id: 'furnaces', label: 'FURNACES', image: '/images/iair/furnace-new.png', description: "When the weather gets chilly, you'll get comfortable, consistent heating—and you can also be confident these furnaces are built for durable performance over the long haul." },
-    { id: 'coils', label: 'COILS', image: '/images/iair/coil-new.png', description: "The function of indoor air coils is simple: heating or cooling your system's air and removing humidity. SUN AIR indoor air coils make that process as effective as possible, maximizing the efficiency of all system components—and keeping you as comfortable as possible in all seasons." },
+    { id: 'coils', label: 'COILS', image: '/images/iair/coil-new.png', description: "The function of indoor air coils is simple: heating or cooling your system's air and removing humidity. SunAir supply INC indoor air coils make that process as effective as possible, maximizing the efficiency of all system components—and keeping you as comfortable as possible in all seasons." },
   ];
 
   const activeProduct = productTabs.find(p => p.id === activeTab);
@@ -25,11 +25,11 @@ export default function Home() {
           <div className="container-custom">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-3xl md:text-4xl font-bold text-sun-blue mb-6">
-                Welcome to SUN AIR
+                Welcome to SunAir supply INC
               </h1>
               <p className="text-base md:text-lg text-gray-700 leading-relaxed">
                 When it comes to heating and cooling, sometimes you just don't need all the extra frills. 
-                SUN AIR keeps it simple and affordable, giving you quality heating and cooling options 
+                SunAir supply INC keeps it simple and affordable, giving you quality heating and cooling options 
                 that won't break the bank.
               </p>
             </div>
@@ -50,7 +50,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-sun-blue font-bold text-lg mb-2">Affordability</h3>
                   <p className="text-gray-700 text-sm leading-relaxed">
-                    SUN AIR offers straightforward and economical solutions for heating and cooling, without unnecessary frills. We provide quality products that deliver comfortable temperatures at an affordable price.
+                    SunAir supply INC offers straightforward and economical solutions for heating and cooling, without unnecessary frills. We provide quality products that deliver comfortable temperatures at an affordable price.
                   </p>
                 </div>
               </div>
@@ -65,7 +65,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-sun-blue font-bold text-lg mb-2">Durability</h3>
                   <p className="text-gray-700 text-sm leading-relaxed">
-                    With SUN AIR, you can rely on consistent performance even in the most challenging heating and cooling conditions. We offer a hassle-free, no-registration warranty to give you peace of mind.
+                    With SunAir supply INC, you can rely on consistent performance even in the most challenging heating and cooling conditions. We offer a hassle-free, no-registration warranty to give you peace of mind.
                   </p>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-sun-blue font-bold text-lg mb-2">Versatility</h3>
                   <p className="text-gray-700 text-sm leading-relaxed">
-                    No matter what you need, the space it needs to fit, or your budget, there's a SUN AIR system that's up to the task: air conditioners, heat pumps, furnaces, packaged units, air handlers, and indoor coils.
+                    No matter what you need, the space it needs to fit, or your budget, there's a SunAir supply INC system that's up to the task: air conditioners, heat pumps, furnaces, packaged units, air handlers, and indoor coils.
                   </p>
                 </div>
               </div>

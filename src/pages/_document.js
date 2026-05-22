@@ -10,22 +10,22 @@ export default function Document() {
         <meta name="theme-color" content="#FFD700" />
         
         {/* SEO Meta Tags */}
-        <meta name="description" content="Discover Sun Air's premium HVAC systems: heat pumps, air conditioners, furnaces, and air handlers. Efficient, reliable comfort solutions for every season." />
+        <meta name="description" content="Discover SunAir supply INC's premium HVAC systems: heat pumps, air conditioners, furnaces, and air handlers. Efficient, reliable comfort solutions for every season." />
         <meta name="keywords" content="HVAC, heating, cooling, heat pumps, air conditioning, furnaces, air handlers" />
-        <meta name="author" content="Sun Air" />
+        <meta name="author" content="SunAir supply INC" />
         <meta name="robots" content="index, follow" />
         
         {/* Open Graph (Social Media Sharing) */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Sun Air | Premium Heating & Cooling Solutions" />
+        <meta property="og:title" content="SunAir supply INC | Premium Heating & Cooling Solutions" />
         <meta property="og:description" content="Premium HVAC systems for complete climate control. Heat pumps, air conditioners, furnaces & more." />
         <meta property="og:image" content="/images/og-image.png" />
         <meta property="og:url" content="https://sunair.example.com" />
-        <meta property="og:site_name" content="Sun Air" />
+        <meta property="og:site_name" content="SunAir supply INC" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Sun Air | Premium Heating & Cooling Solutions" />
+        <meta name="twitter:title" content="SunAir supply INC | Premium Heating & Cooling Solutions" />
         <meta name="twitter:description" content="Premium HVAC systems for complete climate control." />
         <meta name="twitter:image" content="/images/twitter-image.png" />
         
