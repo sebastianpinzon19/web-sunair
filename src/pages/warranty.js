@@ -10,15 +10,17 @@ export default function Warranty() {
         <section className="relative py-12 md:py-20">
           {/* Background image (nature) behind the three CTA blocks */}
             <div
-            aria-hidden="true"
-            className="absolute inset-0 -z-10 bg-center bg-cover"
-            style={{
-              backgroundImage: "url('/images/warranty-bg.jpg')",
-              backgroundPosition: 'center',
-            }}
-          />
-          {/* subtle dark overlay for contrast */}
-          <div className="absolute inset-0 -z-10 bg-black/25" />
+              aria-hidden="true"
+              className="absolute inset-0 -z-20 bg-center bg-cover"
+              style={{
+                backgroundImage: "url('/images/warranty-bg.jpg')",
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+              }}
+            />
+            {/* subtle dark overlay for contrast */}
+            <div className="absolute inset-0 -z-10 bg-black/10" />
 
           <div className="container-custom relative z-10">
             <div className="max-w-4xl mx-auto space-y-2">
