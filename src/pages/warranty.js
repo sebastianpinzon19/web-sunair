@@ -13,7 +13,7 @@ export default function Warranty() {
               aria-hidden="true"
               className="absolute inset-0 z-0 bg-center bg-cover"
               style={{
-                backgroundImage: "url('/images/warranty-bg.jpg')",
+                backgroundImage: "url('/images/warranty-bg.webp')",
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
