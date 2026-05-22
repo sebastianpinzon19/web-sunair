@@ -9,10 +9,10 @@ export default function Warranty() {
       <main className="flex-grow">
         <section className="py-12 md:py-20">
           <div className="container-custom">
-            <div className="max-w-4xl mx-auto space-y-8">
+            <div className="max-w-4xl mx-auto space-y-2">
               {/* Download Warranty */}
               <div className="text-center fade-in-up">
-                  <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-sun-blue mb-6 leading-tight">
+                  <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-sun-blue mb-2 leading-tight">
                   Download Warranty <br className="hidden md:block" />Information
                 </h1>
                 <div className="flex justify-center">
@@ -29,7 +29,7 @@ export default function Warranty() {
 
               {/* Register Equipment */}
               <div className="text-center fade-in-up">
-                <h2 className="text-4xl md:text-5xl font-bold text-sun-blue mb-6 leading-tight">
+                <h2 className="text-4xl md:text-5xl font-bold text-sun-blue mb-2 leading-tight">
                   Register Equipment
                 </h2>
                 <div className="flex justify-center">
@@ -46,7 +46,7 @@ export default function Warranty() {
 
               {/* File a Warranty Claim */}
               <div className="text-center fade-in-up">
-                <h2 className="text-4xl md:text-5xl font-bold text-sun-blue mb-6 leading-tight">
+                <h2 className="text-4xl md:text-5xl font-bold text-sun-blue mb-2 leading-tight">
                   File a Warranty Claim
                 </h2>
                 <div className="flex justify-center">
