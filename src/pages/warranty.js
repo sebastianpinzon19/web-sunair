@@ -20,7 +20,7 @@ export default function Warranty() {
                     href="https://cdn.prod.website-files.com/69a1b89dc4975ea642915275/69a8a432d01e1842b646c289_Warranty.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-5 px-16 rounded-xl transition-all duration-300 shadow-xl hover:shadow-2xl text-xl min-w-[250px]"
+                    className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-3 px-8 rounded-md transition-all duration-300 shadow-md hover:shadow-lg text-base min-w-[180px]"
                   >
                     Download Here
                   </a>
@@ -37,7 +37,7 @@ export default function Warranty() {
                     href="https://sun-air-warranty.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-5 px-16 rounded-xl transition-all duration-300 shadow-xl hover:shadow-2xl text-xl min-w-[250px]"
+                    className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-3 px-8 rounded-md transition-all duration-300 shadow-md hover:shadow-lg text-base min-w-[180px]"
                   >
                     Click Here
                   </a>
@@ -54,7 +54,7 @@ export default function Warranty() {
                     href="https://finalitygarantia-nu.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-5 px-16 rounded-xl transition-all duration-300 shadow-xl hover:shadow-2xl text-xl min-w-[250px]"
+                    className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-3 px-8 rounded-md transition-all duration-300 shadow-md hover:shadow-lg text-base min-w-[180px]"
                   >
                     Click Here
                   </a>

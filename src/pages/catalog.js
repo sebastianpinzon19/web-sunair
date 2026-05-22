@@ -87,12 +87,11 @@ export default function Catalog() {
                 href="https://cdn.prod.website-files.com/69a1b89dc4975ea642915275/6a0375ecccd2562cc5fcab18_iAIR%20Catalog.pdf%20(1)%20(1).pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="product-card-hover bg-sun-blue hover:bg-sun-blue-dark text-white font-bold py-5 px-14 rounded-xl transition-all duration-300 inline-flex items-center gap-4 shadow-xl hover:shadow-2xl text-lg transform hover:scale-105"
+                className="product-card-hover bg-sun-blue hover:bg-sun-blue-dark text-white font-bold py-3 px-8 rounded-md transition-all duration-300 inline-flex items-center gap-3 shadow-md hover:shadow-lg text-base"
               >
-                <span className="text-3xl"></span>
                 <div className="text-left">
                   <div className="text-sm font-normal opacity-90">Download Catalog</div>
-                  <div className="text-2xl font-bold">PDF</div>
+                  <div className="text-lg font-bold">PDF</div>
                 </div>
               </a>
             </div>
