@@ -8,7 +8,7 @@ export default function Contact() {
       <Header />
 
       <main className="flex-grow">
-        <section className="py-20 md:py-28">
+        <section className="py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto">
               <h1 className="text-5xl md:text-6xl font-bold text-sun-blue mb-16 text-center fade-in-up">

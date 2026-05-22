@@ -69,7 +69,7 @@ export default function Catalog() {
       <Header />
 
       <main className="flex-grow">
-        <section className="py-20 md:py-28">
+        <section className="py-12 md:py-20">
           <div className="container-custom">
             {/* Page Title */}
             <div className="text-center mb-16 fade-in-up">

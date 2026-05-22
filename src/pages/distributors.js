@@ -31,7 +31,7 @@ export default function Distributors() {
       <Header />
 
       <main className="flex-grow">
-        <section className="py-20 md:py-28">
+        <section className="py-12 md:py-20">
           <div className="container-custom">
             {/* Submittals Section */}
             <div className="mb-20">

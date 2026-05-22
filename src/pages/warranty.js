@@ -7,7 +7,7 @@ export default function Warranty() {
       <Header />
 
       <main className="flex-grow">
-        <section className="py-20 md:py-28">
+        <section className="py-12 md:py-20">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto space-y-20">
               {/* Download Warranty */}
