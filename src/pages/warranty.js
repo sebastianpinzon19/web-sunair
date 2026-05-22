@@ -23,7 +23,9 @@ export default function Warranty() {
             <div className="absolute inset-0 z-10 bg-black/10" />
 
           <div className="container-custom relative z-20">
-            <div className="max-w-4xl mx-auto space-y-2">
+            <div className="mx-auto max-w-4xl">
+              <div className="bg-white/80 backdrop-blur-sm p-6 md:p-10 rounded-xl shadow-lg">
+                  <div className="max-w-4xl mx-auto space-y-2">
               {/* Download Warranty */}
               <div className="text-center fade-in-up">
                   <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-sun-blue mb-2 leading-tight">
@@ -72,6 +74,8 @@ export default function Warranty() {
                   >
                     Click Here
                   </a>
+                </div>
+              </div>
                 </div>
               </div>
             </div>
