@@ -7,8 +7,20 @@ export default function Warranty() {
       <Header />
 
       <main className="flex-grow">
-        <section className="py-12 md:py-20">
-          <div className="container-custom">
+        <section className="relative py-12 md:py-20">
+          {/* Background image (nature) behind the three CTA blocks */}
+          <div
+            aria-hidden="true"
+            className="absolute inset-0 -z-10 bg-center bg-cover"
+            style={{
+              backgroundImage: "url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80')",
+              backgroundPosition: 'center',
+            }}
+          />
+          {/* subtle dark overlay for contrast */}
+          <div className="absolute inset-0 -z-10 bg-black/25" />
+
+          <div className="container-custom relative z-10">
             <div className="max-w-4xl mx-auto space-y-2">
               {/* Download Warranty */}
               <div className="text-center fade-in-up">
