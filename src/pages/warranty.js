@@ -9,11 +9,11 @@ export default function Warranty() {
       <main className="flex-grow">
         <section className="relative py-12 md:py-20">
           {/* Background image (nature) behind the three CTA blocks */}
-          <div
+            <div
             aria-hidden="true"
             className="absolute inset-0 -z-10 bg-center bg-cover"
             style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1600&q=80')",
+              backgroundImage: "url('/images/warranty-bg.jpg')",
               backgroundPosition: 'center',
             }}
           />
