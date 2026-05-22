@@ -11,7 +11,7 @@ export default function Warranty() {
           {/* Background image (nature) behind the three CTA blocks */}
             <div
               aria-hidden="true"
-              className="absolute inset-0 -z-20 bg-center bg-cover"
+              className="absolute inset-0 z-0 bg-center bg-cover"
               style={{
                 backgroundImage: "url('/images/warranty-bg.jpg')",
                 backgroundPosition: 'center',
@@ -20,9 +20,9 @@ export default function Warranty() {
               }}
             />
             {/* subtle dark overlay for contrast */}
-            <div className="absolute inset-0 -z-10 bg-black/10" />
+            <div className="absolute inset-0 z-10 bg-black/10" />
 
-          <div className="container-custom relative z-10">
+          <div className="container-custom relative z-20">
             <div className="max-w-4xl mx-auto space-y-2">
               {/* Download Warranty */}
               <div className="text-center fade-in-up">
