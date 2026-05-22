@@ -35,10 +35,7 @@ export default function Document() {
         <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
         
         {/* Google Fonts - Professional Font Stack */}
-        <link 
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600;700&display=swap" 
-          rel="stylesheet" 
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
         
         {/* Favicon */}
         <link rel="icon" type="image/png" href="/images/sunair-logo.png" />
