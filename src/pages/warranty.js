@@ -1,10 +1,39 @@
+import { useEffect, useRef, useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import SunLoader from '@/components/SunLoader';
 
 export default function Warranty() {
+  const [loading, setLoading] = useState(false);
+  const [loadingLabel, setLoadingLabel] = useState('Loading...');
+  const loadingTimeout = useRef(null);
+
+  useEffect(() => {
+    return () => {
+      if (loadingTimeout.current) {
+        clearTimeout(loadingTimeout.current);
+      }
+    };
+  }, []);
+
+  const openLinkWithLoader = (href, label) => {
+    if (loadingTimeout.current) {
+      clearTimeout(loadingTimeout.current);
+    }
+
+    setLoadingLabel(label);
+    setLoading(true);
+
+    loadingTimeout.current = setTimeout(() => {
+      window.open(href, '_blank', 'noopener,noreferrer');
+      setLoading(false);
+    }, 450);
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-white to-blue-50">
       <Header />
+      <SunLoader visible={loading} label={loadingLabel} />
 
       <main className="flex-grow">
         <section className="relative py-12 md:py-20">
@@ -32,14 +61,13 @@ export default function Warranty() {
                   Download Warranty <br className="hidden md:block" />Information
                 </h1>
                 <div className="flex justify-center">
-                  <a 
-                    href="https://cdn.prod.website-files.com/69a1b89dc4975ea642915275/69a8a432d01e1842b646c289_Warranty.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    type="button"
+                    onClick={() => openLinkWithLoader('https://cdn.prod.website-files.com/69a1b89dc4975ea642915275/69a8a432d01e1842b646c289_Warranty.pdf', 'Opening PDF...')}
                     className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-3 px-8 rounded-md transition-all duration-300 shadow-md hover:shadow-lg text-base min-w-[180px]"
                   >
                     Download Here
-                  </a>
+                  </button>
                 </div>
               </div>
 
@@ -49,14 +77,13 @@ export default function Warranty() {
                   Register Equipment
                 </h2>
                 <div className="flex justify-center">
-                  <a 
-                    href="https://sun-air-warranty.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    type="button"
+                    onClick={() => openLinkWithLoader('https://sun-air-warranty.vercel.app/', 'Opening warranty system...')}
                     className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-3 px-8 rounded-md transition-all duration-300 shadow-md hover:shadow-lg text-base min-w-[180px]"
                   >
                     Click Here
-                  </a>
+                  </button>
                 </div>
               </div>
 
@@ -66,14 +93,13 @@ export default function Warranty() {
                   File a Warranty Claim
                 </h2>
                 <div className="flex justify-center">
-                  <a 
-                    href="https://finalitygarantia-nu.vercel.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                  <button
+                    type="button"
+                    onClick={() => openLinkWithLoader('https://finalitygarantia-nu.vercel.app/', 'Opening claim system...')}
                     className="product-card-hover inline-block bg-sun-yellow hover:bg-sun-yellow-dark text-sun-blue font-bold py-3 px-8 rounded-md transition-all duration-300 shadow-md hover:shadow-lg text-base min-w-[180px]"
                   >
                     Click Here
-                  </a>
+                  </button>
                 </div>
               </div>
                 </div>
