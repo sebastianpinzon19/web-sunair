@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <img 
-              src="/images/sunair-logo.png" 
+              src="/images/sunair-wordmark.webp" 
               alt="SunAir supply INC Heating & A/C Supply"
               className="h-20 w-auto mb-4"
             />

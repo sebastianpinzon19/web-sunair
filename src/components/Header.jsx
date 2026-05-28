@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex justify-between items-center py-5">
           <Link href="/" className="flex items-center group">
             <img 
-              src="/images/sunair-logo.png" 
+              src="/images/sunair-wordmark.webp" 
               alt="SunAir supply INC Heating & A/C Supply"
               className="h-16 md:h-20 w-auto group-hover:scale-105 transition-transform duration-300"
             />
