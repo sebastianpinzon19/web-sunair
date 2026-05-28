@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "allowJs": false,
+    "noEmit": true,
+    "types": ["node"]
+  },
+  "include": ["next.config.js", "postcss.config.js", "tailwind.config.js"]
+}
